@@ -101,3 +101,69 @@ iframe[src*="metronome"],
 .newsletter-form button { background: var(--primary-color); color: var(--white); border: none; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; transition: 0.3s; }
 .newsletter-form button:hover { background: var(--primary-hover); }
 .footer-bottom { text-align: center; padding-top: 20px; font-size: 0.85rem; color: #8a7b6f; }
+
+/* =========================================
+   LEAD GENERATION FORM STYLES
+   ========================================= */
+.lead-gen-section { 
+  padding: 60px 5% 80px; 
+  display: flex; 
+  justify-content: center; 
+}
+.lead-gen-container { 
+  background: var(--white); 
+  border-radius: 25px; 
+  padding: 50px 30px; 
+  max-width: 800px; 
+  width: 100%; 
+  text-align: center; 
+  box-shadow: 0 20px 50px rgba(192, 133, 82, 0.15); 
+  border: 2px dashed #eaddd3; 
+}
+.lead-gen-container h2 { 
+  color: var(--text-dark); 
+  font-size: 2.2rem; 
+  margin-bottom: 15px; 
+}
+.lead-gen-container p { 
+  color: #665c54; 
+  margin-bottom: 30px; 
+  font-size: 1.1rem; 
+}
+.lead-gen-container strong {
+  color: var(--primary-color);
+}
+.catchy-form { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 15px; 
+  max-width: 500px; 
+  margin: 0 auto; 
+}
+.catchy-form input, .catchy-form select { 
+  width: 100%; 
+  padding: 15px 20px; 
+  border: 2px solid #eaddd3; 
+  border-radius: 12px; 
+  font-size: 1rem; 
+  background: var(--bg-light); 
+  color: var(--text-dark); 
+  outline: none; 
+  transition: 0.3s; 
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+.catchy-form input:focus, .catchy-form select:focus { 
+  border-color: var(--primary-color); 
+  background: var(--white);
+  box-shadow: 0 0 0 4px rgba(192, 133, 82, 0.1); 
+}
+.catchy-form button { 
+  width: 100%; 
+  font-size: 1.1rem; 
+  padding: 16px;
+  cursor: pointer; 
+}
+.catchy-form button i {
+  margin-right: 8px;
+}
